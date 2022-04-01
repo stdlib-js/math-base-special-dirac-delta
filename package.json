@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/math-base-special-dirac-delta",
+  "version": "0.0.0",
+  "description": "Evaluate the Dirac delta function.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-dirac-delta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "dirac",
+    "delta",
+    "distribution",
+    "dist",
+    "continuous",
+    "kronecker",
+    "spike",
+    "impulse"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
