@@ -18,7 +18,9 @@
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
+    "include": "./include",
     "lib": "./lib",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
@@ -39,6 +41,7 @@
   "dependencies": {
     "@stdlib/constants-float64-pinf": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
+    "@stdlib/math-base-napi-unary": "^0.0.x",
     "@stdlib/utils-library-manifest": "^0.0.x"
   },
   "devDependencies": {
