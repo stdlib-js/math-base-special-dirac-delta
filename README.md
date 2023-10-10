@@ -80,6 +80,11 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 ## Usage
 
 ```javascript
+import diracDelta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-dirac-delta/tags). For example,
+
+```javascript
 import diracDelta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@v0.1.1-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ v = diracDelta( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import diracDelta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@v0.1.1-esm/index.mjs';
+import diracDelta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@esm/index.mjs';
 
 var x = linspace( -1.0, 1.0, 101 );
 
