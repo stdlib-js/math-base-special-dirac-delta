@@ -82,6 +82,11 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 To use in Observable,
 
 ```javascript
+diracDelta = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-dirac-delta/tags). For example,
+
+```javascript
 diracDelta = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@v0.1.1-umd/browser.js' )
 ```
 
@@ -94,7 +99,7 @@ var diracDelta = require( 'path/to/vendor/umd/math-base-special-dirac-delta/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -137,7 +142,7 @@ v = diracDelta( NaN );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-delta@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
