@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-29)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b6667b9`](https://github.com/stdlib-js/stdlib/commit/b6667b9be170d2a64db2d075cec22539b0125187) - **chore:** replace manual `for` loop in examples [(#6350)](https://github.com/stdlib-js/stdlib/pull/6350) _(by Harsh)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
@@ -40,9 +41,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Harsh
 -   Philipp Burckhardt
 
 </section>
