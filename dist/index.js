@@ -1,5 +1,5 @@
-"use strict";var u=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var t=u(function(o,i){
-var a=require('@stdlib/math-base-assert-is-nan/dist'),n=require('@stdlib/constants-float64-pinf/dist');function s(r){return a(r)?NaN:r===0?n:0}i.exports=s
-});var c=t();module.exports=c;
+"use strict";var a=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(u){throw (r=0, u)}};};var t=a(function(q,i){
+var n=require('@stdlib/math-base-assert-is-nan/dist'),s=require('@stdlib/constants-float64-pinf/dist');function c(e){return n(e)?NaN:e===0?s:0}i.exports=c
+});var f=t();module.exports=f;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
